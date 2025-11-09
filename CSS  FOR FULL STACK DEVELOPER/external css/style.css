@@ -1,0 +1,16 @@
+h1{
+    color:blue;
+    text-align: center;
+    background-color:pink;
+    font-size: 40px;
+}
+p{
+    color:aqua;
+    font-size:70px;
+    line-height:1.5;
+    background-color: brown;
+    text-align: center;
+}
+body{
+    background-color: lightgreen;
+}
