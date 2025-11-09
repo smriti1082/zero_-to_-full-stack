@@ -5,8 +5,9 @@
     </head>
     <body>
         <!--TABLE-->
-        <table  border="2">
-            <caption>STUDENT DATA</caption>
+        <table  border="1">
+            <caption><strong>STUDENT DATA</strong></caption>
+            <!--thead-->
             <thead>
             <tr>
                 <th>First name</th>
@@ -14,6 +15,7 @@
                 <th>Age</th>
                 </tr>
                 </thead>
+                <!--TABLE BODY-->
             </tbody>
                 <tr>
                     <td>john</td>
@@ -32,5 +34,45 @@
             </tr>
         </tbody>
         </table>
+        <br>
+        <!--Rowspan,Colspan,and Table Attributes-->
+        <table border="1" cell padding="10" cell spacing="0"
+        <caption>weekly class schedule</caption>
+        <tr>
+            <th>Day</th>
+            <th>9-10 AM</th>
+            <th>10-11 AM</th>
+            <th>11-12 AM</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td rowspan="2">Math</td>
+            <td>Science</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="2">Computer Lab</td>
+        </tr>
+        </body>
+        <br>
+        <table border="1" cell padding="10" cell spacing="0"
+        <caption>Student marks List</caption>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Rahul</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Neha</td>
+            <td>90</td>
+        </tr>
+    </table>
     </body>
 </html>
